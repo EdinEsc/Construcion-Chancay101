@@ -91,9 +91,13 @@ function EnConstruccion() {
           style={{ backgroundImage: `url(${fondoBL})` }}
         />
         <div
-          className="bg-cover bg-center"
-          style={{ backgroundImage: `url(${fondoBR})` }}
-        />
+  className="bg-cover"
+  style={{
+    backgroundImage: `url(${fondoBR})`,
+    backgroundPosition: "38% 78%"
+  }}
+/>
+
       </div>
 
       {/* OVERLAY OSCURO */}
